@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario google</title>
+    <link rel="stylesheet" href="estilo/Style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="image/carro a venda.webp">
+            <h3>Cadastre-se seu automovel para venda!</h3>
+        </div>
+        <div class="form-container">
+            <div class="form-header">
+                <p>Formulario</p>
+            </div>
+            <div class="form-body">
+                <h1 class="form-titulo">Venda seu automovel rapido e com seguranca</h1>
+                <p>Descreva seu veiculo e marque as opcoes que ele possui</p>
+                <form>
+                    <div class="form-inputs">
+                        <label for="tittle">Titulo do anuncio <span class="required-field">*</span></label>
+                        <input type="text" name="tittle" id="tittle" class="block"
+                            placeholder="Digite um  titulo para anunciar o automovel" required />
+                    </div>
+
+                    <div class="form-inputs">
+                        <label for="Preço">Preço do automovel <span class="required-field">*</span></label>
+                        <input type="number" name="Preço" id="Preço" class="block"
+                            placeholder="Digite o preço do automovel" required />
+                    </div>
+
+                    <div class="form-inputs">
+                        <label for="Desciçao">Descriçao do automovel<span class="required-field">*</span></label>
+                        <textarea name="Desciçao" id="Desciçao" class="block"
+                            placeholder="Digite os detalhes do automovel "></textarea>
+                    </div>
+
+                    <div class="form-inputs">
+                        <label for="Marca">Informe a marca do automovel <span class="required-field">*</span></label>
+                        <input type="text" name="Marca" id="Marca" class="block"
+                            placeholder="Digite a marca do automovel" required />
+                    </div>
+
+                    <div class="form-inputs">
+                        <label for="Modelo">Informe o modelo do automovel <span class="required-field">*</span></label>
+                        <input type="text" name="Modelo" id="Modelo" class="block"
+                            placeholder="Digite o modelo do automovel" required />
+                    </div>
+
+                    <div class="form-inputs">
+                        <label for="Quilometragem">Informe a quilometragem do automovel <span
+                                class="required-field">*</span></label>
+                        <input type="number" name="Quilometragem" id="Quilometragem" class="block"
+                            placeholder="Digite a quilometragem do automovel" required />
+                    </div>
+
+                    <div class="form-inputs">
+                        <label for="Data">Informe a data de compra do automovel <span
+                                class="required-field">*</span></label>
+                        <input type="date" name="Data" id="Data" class="block"
+                            placeholder="Digite a data de compra do automovel" required />
+                    </div>
+                    <div class="form-inputs">
+                        <P>Tipo de câmbio:<span class="required-field">*</span></P>
+                        <input type="radio" id="manual" name="marcha">
+                        <label for="manual">Manual</label>
+                        <input type="radio" id="Automatico" name="marcha">
+                        <label for="Automatico">Automatico</label>
+                    </div>
+                    <div class="box-inputs">
+                        <p>Fotos do automovel <span class="required-field"></span></p>
+                        <input type="file" id="fotos" multiple accept="image/png, image/jpg/pdf">
+                        <label for="fotos"></label>
+                    </div>
+                    <input type="submit" value="enviar" name="enviar" class="btn-subt">
+                </form>
+            </div>
+        </div>
+</body>
+
+</html>
