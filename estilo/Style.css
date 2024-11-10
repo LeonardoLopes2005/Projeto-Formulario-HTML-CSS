@@ -48,16 +48,39 @@ textarea {
 }
 
 .header {
-    height: 120px;
+    height: 240px;
     padding: 60px;
     background-color: #C8102E;
-
 }
 
 .header h3 {
     margin-top: -35px;
     margin-left: -10px;
+}
 
+#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 20px;
+    left: 1300px;
+    display: flex;
+}
+
+#menu li:hover{
+    background-color: #000000;
+}
+
+#menu li{
+    display: inline-block;
+    padding: 8px;
+    background-color: #C8102E;
+    margin: 3px;
+    transition: background-color 0.5s; 
+}
+.li2{
+    text-decoration: none;
+    color: #ffffff;
 }
 
 .form-container {
@@ -65,7 +88,7 @@ textarea {
     width: 70%;
     margin: 0 auto;
     position: relative;
-    top: -65px;
+    top: -70px;
     border-radius: 70px;
     box-shadow: 7px 4px 4px rgb(112, 112, 112);
     overflow: hidden;
@@ -138,8 +161,8 @@ textarea {
 img {
     position: relative;
     width: 20%;
-    height: 140px;
-    margin-top: -50px;
+    height: 240px;
+    margin-top: -20px;
     margin-left: 710px;
 }
 
